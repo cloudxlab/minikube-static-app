@@ -1,0 +1,1 @@
+# minikube-static-app
