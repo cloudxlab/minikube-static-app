@@ -16,4 +16,4 @@ docker push vagdevik/static-website-k8s:$GIT_SHA
 kubectl apply -f .
 
 # Update react-client image
-kubectl set image deployments/static-web-deployment days-app-container=vagdevik/static-website-k8s:$GIT_SHA
+kubectl set image deployment/static-web-deployment days-app-container=vagdevik/static-website-k8s:$GIT_SHA
